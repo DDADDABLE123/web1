@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+//폰트 불러오기
+
+body{
+    margin:0;
+    font-family:"Poppins";
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+}
+li{
+    display:inline-block;
+    font-size:0.8em;
+    margin-right:0.8em;
+}
+
+// .container{
+//     background-color: yellow;
+//     border:1px solid black;
+// }
+
+header {
+    display:flex;
+    margin:0;
+    justify-content:left;
+    background:#F0F0F0;
+    .container{
+        flex:1 0 1000px;
+        display:flex;
+        margin:0 auto;
+        max-width:1200px;
+        justify-content:space-between;
+        padding:0.2em 2em;
+
+        background:#F0F0F0;
+        border:0px;
+    }
+}
+
+.search{
+    display:flex;
+    margin:0;
+    justify-content:left;
+    .container{
+        flex:1 0 1000px;
+        display:flex;
+        margin:0 auto;
+        max-width:1200px;
+        align-items:flex-start;
+        justify-content: space-between;
+        padding:0.2em 2em;
+    }
+
+    .category{
+        height:7em;
+        width:7em;
+        background-color:rgb(118, 118, 228);
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+        
+        img{
+            width:4em;
+        }
+
+        .desc{
+            color:#fff;
+            font-weight:1000px;
+            margin-top:1em;
+        }
+    }
+
+    .bundles{
+        margin-top:1em;
+        display:flex;
+        align-items:flex-start;
+    }
+    .logo{
+        display:flex;
+        height:4em;
+        width:10em;
+        margin-left:1em;
+    }
+    .search{
+        display:flex;
+        background-color:white;
+        margin-left:1em;
+        margin-top:1em;
+        border:2px solid rgb(132, 132, 230);
+        input{
+            width:33em;
+            height:2.5em;
+            border:0;
+            padding:0;
+            font-size:1em;
+            outline:none;
+        }
+        button{
+            border:0;
+            margin:0;
+            display:flex;
+            background:#fff;
+            align-items:center;
+            outline:none;
+            cursor:pointer;
+            img{
+                height:1.5em;
+                z-index:3;
+            }
+        }
+
+    }
+
+    .my{
+        display:flex;
+        margin-top:1em;
+        height:5em;
+    }
+
+    .items{
+        display:flex;
+        margin-top:0.5em;
+        height:2em;
+        margin-left:1em;
+        ul{
+            width:80%;
+            display:flex;
+            justify-content: space-between;
+        }
+    }
+
+}
+.image{
+    .container{
+        height:60vh;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    img{
+        width:100%;
+    }
+}
+
+.market{
+        display:flex;
+        margin:0;
+        justify-content:left;
+        .container{
+            flex:1 0 1000px;
+            display:grid;
+            margin:0 auto;
+            max-width:1200px;
+            justify-content:space-between;
+            padding:0.2em 2em;
+            border:0px;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            row-gap:20px;
+            column-gap:20px;
+            div{
+                text-align:center;
+            }
+        }
+
+}

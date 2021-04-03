@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 0.8em;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  background: #F0F0F0;
+}
+
+header .container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 1000px;
+          flex: 1 0 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.2em 2em;
+  background: #F0F0F0;
+  border: 0px;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.search .container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 1000px;
+          flex: 1 0 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.2em 2em;
+}
+
+.search .category {
+  height: 7em;
+  width: 7em;
+  background-color: #7676e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search .category img {
+  width: 4em;
+}
+
+.search .category .desc {
+  color: #fff;
+  font-weight: 1000px;
+  margin-top: 1em;
+}
+
+.search .bundles {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.search .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4em;
+  width: 10em;
+  margin-left: 1em;
+}
+
+.search .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 2px solid #8484e6;
+}
+
+.search .search input {
+  width: 33em;
+  height: 2.5em;
+  border: 0;
+  padding: 0;
+  font-size: 1em;
+  outline: none;
+}
+
+.search .search button {
+  border: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.search .search button img {
+  height: 1.5em;
+  z-index: 3;
+}
+
+.search .my {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+  height: 5em;
+}
+
+.search .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.5em;
+  height: 2em;
+  margin-left: 1em;
+}
+
+.search .items ul {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.image .container {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image img {
+  width: 100%;
+}
+
+.market {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.market .container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 1000px;
+          flex: 1 0 1000px;
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  max-width: 1200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.2em 2em;
+  border: 0px;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  row-gap: 20px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.market .container div {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
