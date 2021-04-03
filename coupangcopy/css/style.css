@@ -199,6 +199,7 @@ header .container {
 
 .image img {
   width: 100%;
+  min-width: 120em;
 }
 
 .market {
